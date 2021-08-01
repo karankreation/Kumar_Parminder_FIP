@@ -1,0 +1,139 @@
+.shadow_1 {
+    box-shadow: 1px 2px 8px rgba(36, 36, 36, 0.767);
+    transition: 500ms;
+}
+
+.shadow_1:hover {
+    box-shadow: 12px 8px 20px rgba(30, 30, 30, 0.87);
+    transform: translateY(-5px);
+
+}
+
+.shadow_IO {
+    box-shadow: 1px 2px 8px rgba(36, 36, 36, 0.767), inset 12px 8px 20px rgba(30, 30, 30, 0.87);
+    transition: 500ms;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+
+    font-family: 'Reggae One', cursive;
+}
+
+/* Modal Content */
+.modal-content {
+    color: #96c12b;
+    font-size: 4vh;
+    background-color: #ececec;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    background-color: rgba(108, 67, 136, 0.397);
+
+}
+
+.modal_txt {
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 9px 4px 2px rgba(206, 89, 55, 0.07);
+
+}
+
+.font_sizw22 {
+    font-size: 3vh;
+}
+
+/* The Close Button */
+.close {
+    color: #000000;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 6%;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img_center {
+    align-content: center;
+    text-align-last: center;
+}
+
+.www {
+    width: 50%;
+}
+
+.modal-content img {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
